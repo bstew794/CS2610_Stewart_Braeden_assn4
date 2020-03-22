@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73ee292c-a100-4a0d-a9e2-442731c54575" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS2610_Stewart_Braeden_assn4/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CS2610_Stewart_Braeden_assn4/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS2610_Stewart_Braeden_assn4/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CS2610_Stewart_Braeden_assn4/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitconv/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitconv/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unitconv/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitconv/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
