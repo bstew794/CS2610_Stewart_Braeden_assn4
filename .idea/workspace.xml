@@ -4,9 +4,8 @@
     <list default="true" id="73ee292c-a100-4a0d-a9e2-442731c54575" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CS2610_Stewart_Braeden_assn4/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CS2610_Stewart_Braeden_assn4/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitconv/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitconv/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitconv/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitconv/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS2610_Stewart_Braeden_assn4/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CS2610_Stewart_Braeden_assn4/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gold/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gold/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -27,6 +27,7 @@
   <component name="ProjectId" id="1ZUi1XXy6EZcKLobNEnBsG9ZQbk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
