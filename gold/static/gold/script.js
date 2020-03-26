@@ -32,7 +32,6 @@ function getDateTime(){
 
 function addOutput(num, units){
     var outputEl = document.createElement("DIV");
-    outputEl.className = "TODO";
     outputEl.onclick = function(e) {this.parentNode.removeChild(this)};
     outputDiv.insertBefore(outputEl, outputDiv.childNodes[0]);
 
@@ -49,9 +48,9 @@ function addOutput(num, units){
             .then((response) => {return response.json();})
             .then((data) => {
                 var worth = price * data.value;
-
                 var goodMessage = "You are worth: $" + worth.toFixed(2);
 
+                outputEl.className = "stuff-box green";
                 var resultDisplay = document.createElement("P");
                 resultDisplay.style.display = "inline";
                 resultDisplay.innerHTML = goodMessage;
@@ -62,6 +61,7 @@ function addOutput(num, units){
             });
     }
     else{
+        outputEl.className = "stuff-box red";
         var resultDisplay = document.createElement("P");
         resultDisplay.style.display = "inline";
         resultDisplay.innerHTML = "Error! Not a valid number...";

@@ -1,0 +1,53 @@
+body{
+    background: url('/static/gold/images/Gold_Brick.jpg');
+}
+
+#intro {
+    font-family: 'helvetica neue', helvetica, sans-serif;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	padding: 3px 10px;
+	margin: 10px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	background: white;
+}
+
+.timestamp {
+    font-size: smaller;
+    font-family: monospace;
+    padding: 0px 10px;
+}
+
+.stuff-box {
+	font-family: 'helvetica neue', helvetica, sans-serif;
+	color: white;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	text-align: center;
+	padding: 3px 10px;
+	margin: 10px;
+	cursor: pointer;
+	border-radius: 10px;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.black {
+    border-color: rgb(0,0,0);
+    background:   rgb(75,75,75);
+    box-shadow: 1px 1px 2px rgba(200,200,0,0.4);
+}
+
+.green {
+	border-color: rgb(0,255,0);
+	background:   rgb(60,180,60);
+	box-shadow: 1px 1px 2px rgba(0,200,0,0.4);
+}
+
+.red {
+	border-color: rgb(255,0,0);
+	background:   rgb(180,60,60);
+	box-shadow: 1px 1px 2px rgba(200,0,0,0.4);
+}

@@ -4,8 +4,8 @@
     <list default="true" id="73ee292c-a100-4a0d-a9e2-442731c54575" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gold/static/gold/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/gold/static/gold/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gold/static/gold/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/gold/static/gold/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gold/templates/gold/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gold/templates/gold/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitconv/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitconv/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
