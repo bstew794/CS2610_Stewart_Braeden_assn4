@@ -1,4 +1,6 @@
-const priceURL = 'https://www.quandl.com/api/v3/datasets/LBMA/GOLD.json?column_index=2&start_date=2020-03-19&end_date=20-03-24&api_key=a8983iSQs9CoKF_mgKkE'
+
+const priceParams = "column_index=2&limit=5&api_key=a8983iSQs9CoKF_mgKkE";
+const priceURL = 'https://www.quandl.com/api/v3/datasets/LBMA/GOLD.json?' + priceParams;
 var message = "The current price of gold is $";
 var price = 0;
 

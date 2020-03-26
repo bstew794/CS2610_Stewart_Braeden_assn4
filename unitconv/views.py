@@ -8,7 +8,7 @@ def convert(request):
     to = request.GET['to']
     value = float(request.GET['value'])
 
-    factor = get_object_or_404(ConversionFactor, pk=1)
+    factor = ConversionFactor.objects.last()
 
     try:
         value = (value * float(getattr(factor, sentFrom))) / float(getattr(factor, to))
