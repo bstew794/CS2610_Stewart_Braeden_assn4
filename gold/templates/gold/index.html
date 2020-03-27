@@ -8,17 +8,31 @@
     <link rel="stylesheet" type="text/css" href="{% static 'gold/style.css' %}">
 </head>
 <body>
+    <!--Introduction & Instructions-->
     <div id="intro">
         <h2>Worth Your Weight in Gold</h2>
-        <p>instructions...</p>
+
+        <p>
+            Welcome valued user! This interface will take your weight and convert it into troy ounces which will then be
+            converted into an american dollar amount in an effort to answer: what would you be worth if you were made
+            of solid gold?
+        </p>
+        <p>
+            The process is easy! Simply place your weight in the empty input field below, chose the relevant units of
+            measurement from the drop-down selection menu and press "Compute". A US dollar amount will be displayed
+            below along with the date & time that it was calculated. If you want to remove a result, then just click on
+            it!
+        </p>
     </div>
 
+    <!--Weight Converter Interface-->
     <div class="stuff-box black">
         <h2>Converter:</h2>
         <span>enter your weight here:</span>
 
         <input id="weight_in" type="number">
 
+        <!--available units for conversion to troy ounces-->
         <select id="units_select">
             <option value="g">g</option>
             <option value="T">T</option>
@@ -27,13 +41,16 @@
             <option value="oz">oz</option>
         </select>
 
+        <!--starts the calculation process-->
         <button id="compute_butt">compute</button>
     </div>
 
+    <!--current price of gold per troy ounce will be displayed here once it has loaded-->
     <div class="stuff-box black">
         <p id="display">"Please Wait"</p>
     </div>
 
+    <!--starts our script once the other elements have been generated-->
     <script type="text/javascript" src="{% static 'gold/script.js' %}"></script>
 </body>
 </html>

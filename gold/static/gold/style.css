@@ -5,12 +5,8 @@ body{
 #intro {
     font-family: 'helvetica neue', helvetica, sans-serif;
 	letter-spacing: 1px;
-	text-transform: capitalize;
 	padding: 3px 10px;
 	margin: 10px;
-	border-width: 2px;
-	border-style: solid;
-	border-color: white;
 	background: white;
 }
 
@@ -27,11 +23,13 @@ body{
 	text-transform: capitalize;
 	text-align: center;
 	padding: 3px 10px;
-	margin: 10px;
+	margin: auto;
+	margin-bottom: 5px;
 	cursor: pointer;
 	border-radius: 10px;
 	border-width: 2px;
 	border-style: solid;
+	width: 75%;
 }
 
 .black {
