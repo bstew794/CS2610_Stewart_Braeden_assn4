@@ -22,4 +22,6 @@ gold price data: https://www.quandl.com/data/LBMA/GOLD-Gold-Price-London-Fixing
 
 And Viewers Like You, Thank You...
 
+______
+
 maintained by: www.bstewart794@gmail.com
