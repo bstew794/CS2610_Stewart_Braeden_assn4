@@ -58,7 +58,8 @@ function addOutput(num, units){
     outputEl.appendChild(timestamp);
 
     if(!(num === "")){
-        var convertURL = "http://?{location.hostname}:8000/unitconv/convert?from=" + units + "&to=t_oz&value=" + num;
+        var convertURL = "http://" + locHost + "/unitconv/convert?from=" + units + "&to=t_oz&value=" + num;
+        console.log(convertURL);
 
         // fetch the conversion of the num in units to troy ounces
         fetch(convertURL)
